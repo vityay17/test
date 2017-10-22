@@ -26,6 +26,7 @@ export class HomeComponent implements OnInit {
       }
     );
     // test
+    // test#3
     const myObservable = Observable.create((observer: Observer<string>) => {
       setTimeout(() => {
         observer.next('first package');
